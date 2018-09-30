@@ -1,0 +1,16 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin: auto;
+    width: 100%;
+}
+.card-item{
+    margin: 1%;
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+}

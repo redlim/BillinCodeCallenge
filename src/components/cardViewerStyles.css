@@ -1,0 +1,10 @@
+.card-viewer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card-viewer .card-item{
+    width: 30%;
+}
