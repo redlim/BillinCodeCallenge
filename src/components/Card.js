@@ -6,7 +6,7 @@ class Card extends Component {
   render() {
     return (
       <div className="card">
-        <img src="https://picsum.photos/400/400/?random" alt="Avatar" />
+        <img src={`https://dummyimage.com/300x300/000/fff.png&text=${this.props.title}`} alt="Avatar" />
         <div className="container">
           <h4><b>{this.props.title}</b></h4>
           <p>{this.props.subtitle}</p>
